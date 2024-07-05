@@ -2,7 +2,7 @@
 
 Bootstrap mini website 
 
-<img src="../CustomerManagement/src/images/screen.png">
+<img src="./src/images/screen.png"/>
 ### `npm run dev`
 
 Runs the app in the development mode.\
@@ -21,10 +21,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ### Project Access
 Project URL: http://localhost:3000/api/customers
 Access Credentials: [Provide any necessary credentials or access details]
-<img src="../CustomerManagement/src/images/end points json.png">
+<img src="./src/images/end points json.png"/>
 Thunder Client is a Visual Studio Code extension used for sending HTTP requests to test and debug APIs
 Endpoint: POST http://localhost:3000/api/customers
-
+<img src="./src/images/users Post.png"/>
 ## Usage 
 This website is built with [Bootstrap](https://getbootstrap.com/) and [Sass](https://sass-lang.com/). It uses [Font Awesome](https://fontawesome.com/) for icons.
 
