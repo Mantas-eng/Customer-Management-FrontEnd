@@ -25,6 +25,9 @@ Access Credentials: [Provide any necessary credentials or access details]
 Thunder Client is a Visual Studio Code extension used for sending HTTP requests to test and debug APIs
 Endpoint: POST http://localhost:3000/api/customers
 <img src="./src/images/users Post.png"/>
+I also utilized Postman for sending HTTP requests effectively
+<img src="./src/images/PostMan GET.png"/>
+<img src="./src/images/PostMan POST.png"/>
 ## Usage 
 This website is built with [Bootstrap](https://getbootstrap.com/) and [Sass](https://sass-lang.com/). It uses [Font Awesome](https://fontawesome.com/) for icons.
 
