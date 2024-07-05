@@ -17,6 +17,16 @@
       "static/chunks/main.js",
       "static/chunks/pages/index.js"
     ],
+    "/LoginPage": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/LoginPage.js"
+    ],
+    "/RegisterPage": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/RegisterPage.js"
+    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
