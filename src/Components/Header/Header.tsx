@@ -14,7 +14,7 @@ const Header: React.FC = () => {
             Customer Management App
             </h1>
             <p className="lead text-white w-75 m-auto mb-4">
-              Discover the latest movies and immerse yourself in the unparalleled world of cinematic magic
+            Effortlessly manage users with our intuitive platform            
             </p>
           </div>
         </div>

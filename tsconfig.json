@@ -31,7 +31,7 @@
     "include": [
       "CustomerManagement/next-env.d.ts",
       "**/*.ts",
-      "**/*.tsx",
+      "**/*.tsx", "src/Components/ThemeToggler",
     ],
     "exclude": [
       "node_modules"

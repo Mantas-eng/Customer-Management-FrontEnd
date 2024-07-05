@@ -1,46 +1,51 @@
-# Getting Started with Create React App
+# UserManagement Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bootstrap mini website 
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
+<img src="../CustomerManagement/src/images/screen.png">
+### `npm run dev`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Features
 
-### `npm test`
+- Modern layout with custom colors/styles/backgrounds
+- Responsive design
+- Sticky navbar with style changes on scroll
+- Bootstrap modals
+- Form & input styles
+- Web Api
+- User Management
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Project Access
+Project URL: http://localhost:3000/api/customers
+Access Credentials: [Provide any necessary credentials or access details]
+<img src="../CustomerManagement/src/images/end points json.png">
+Thunder Client is a Visual Studio Code extension used for sending HTTP requests to test and debug APIs
+Endpoint: POST http://localhost:3000/api/customers
 
-### `npm run build`
+## Usage 
+This website is built with [Bootstrap](https://getbootstrap.com/) and [Sass](https://sass-lang.com/). It uses [Font Awesome](https://fontawesome.com/) for icons.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In order to customize this website, you need to install [Node.js](https://nodejs.org/en/). Then, clone this repository and run:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This will install Bootstrap, Sass and Font Awesome. To build your CSS files from Sass, run:
 
-### `npm run eject`
+```bash
+npm run sass:build
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To watch your Sass files for changes, run:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm run sass:watch
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+You can add Bootstrap variables to the `bootstrap.scss` file. You can look at the file `node_modules/bootstrap/dist/scss/_variables.scss` for a list of all the variables. Do NOT edit the `variables.scss` file directly, as it will be overwritten when you update Bootstrap.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+To add your own custom styles, use the `styles.scss` file.

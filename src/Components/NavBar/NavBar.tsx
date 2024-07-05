@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Navbar, Container, Nav, Button } from 'react-bootstrap';
 import styles from '@/styles/styles.module.scss';
-import LogoIMG from '@/logo/creatiive_logo.png'; 
+import LogoIMG from '@/logo/sproud-leaf_logo.png'; 
 import Cookies from 'js-cookie';
 import { useRouter } from 'next/router';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -56,10 +56,6 @@ const App = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
               <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#discover">Discover</Nav.Link>
-              <Nav.Link href="#summary">Summary</Nav.Link>
-              <Nav.Link href="#takeaways">Takeaways</Nav.Link>
-              <Nav.Link href="#subscribe">Subscribe</Nav.Link>
             </Nav>
             <Nav className="ms-auto">
               {isLoggedIn ? (
