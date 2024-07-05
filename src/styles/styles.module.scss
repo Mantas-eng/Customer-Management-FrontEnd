@@ -1,0 +1,39 @@
+$header-color: #070707;
+$navbar-color: #111111;
+$navbar-sticky-opacity: 0.9;
+
+.header {
+    background-color: $header-color;    
+    margin-top: 126px;
+    min-height: 1000px;
+}
+.main{
+    margin-top: 200px;
+}
+.h2{
+    margin-bottom: 50px;
+    color: #7a7777;
+}
+.navbar {
+    transition: all 0.5s ease-in-out;
+    background-color: $navbar-color;
+}
+.btn-secondary{ 
+    gap:20px;
+}
+.navbar-sticky {
+    opacity: $navbar-sticky-opacity;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.loaded-background {
+    background-color: #ACE1AF; 
+  }
+@media(max-width:1000px){
+    .header  {
+        display: flex;
+        justify-content: center;
+        text-align:center;
+    }
+}
+

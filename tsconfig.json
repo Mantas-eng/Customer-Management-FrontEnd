@@ -1,0 +1,39 @@
+  {
+    "compilerOptions": {
+      "target": "es5",
+      "lib": [
+        "dom",
+        "dom.iterable",
+        "esnext"
+      ],
+      "allowJs": true,
+      "skipLibCheck": true,
+      "strict": false,
+      "forceConsistentCasingInFileNames": true,
+      "noEmit": true,
+      "incremental": true,
+      "esModuleInterop": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "jsx": "preserve",
+      "baseUrl": ".",  
+      "paths": {
+        "@/components/*": ["src/components/*"],
+        "@/pages/*": ["src/pages*"],
+        "@/styles/*": ["src/styles/*"],
+        "@/api/*": ["src/api/*"],
+        "@/logo/*":["src/logo/*"]
+      }
+    },
+
+    "include": [
+      "CustomerManagement/next-env.d.ts",
+      "**/*.ts",
+      "**/*.tsx",
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
